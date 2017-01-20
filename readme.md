@@ -24,8 +24,8 @@ Using the hidden API, for each keyword we search, we will get fewer search resul
 Up till now(2017-01-19), this hidden API still works.
 
 ```
-python grab_historical_tweets.py
-python combine_files.py
+python grab_historical_tweets.py # download tweets into small files
+python combine_files.py # combine small files to a big file for each keyword
 ```
 
-Check the code for more details. 
+Check the code for changing keywords, time ranges, etc.. 
